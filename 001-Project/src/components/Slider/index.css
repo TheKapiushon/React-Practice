@@ -1,0 +1,24 @@
+.slider--container {
+    margin-top: 5rem;
+}
+
+.img-slider--self {
+    width: 100%;
+}
+
+.slider-link--container {
+    border: 2px solid;
+    padding: 8px 32px;
+    border-radius: 5px;
+    transition: .4s;
+    display: inline-block;
+    margin-top: .5rem;
+}
+
+.slider-link--container:hover {
+    color: white;
+    background-color: #646cff;
+    border: none;
+    transition: .4s;
+    box-shadow: 1px 2px 5px black;
+}

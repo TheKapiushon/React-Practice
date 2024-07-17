@@ -1,0 +1,23 @@
+.warn--container {
+    width: 300px;
+    background: #1f1f1f;
+    position: sticky;
+    left: -40px;
+    bottom: 10px;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.warn-freeShipp--container {
+    color: #646cff;
+}
+
+.warn-discount--container {
+    color: #ae4f4f;
+}
+
+.fixed {
+    position: absolute;
+    left: -100%; 
+    right: -100%; 
+}
