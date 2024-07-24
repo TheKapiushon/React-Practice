@@ -1,0 +1,45 @@
+.box--container {
+    background-color: #1f1f1f;
+    padding: 1rem;
+    box-shadow: 0px 2px 5px black;
+    border-radius: 5px;
+}
+
+.list--container {
+    padding: 0;
+}
+
+.list--item {
+    list-style-type: none;
+    background-color: black;
+    margin: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.list--item:hover {
+    background-color: blueviolet;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.correct {
+    background-color: lightgreen;
+    color: green;
+}
+
+.false {
+    background-color: lightcoral;
+    color: red;
+}
+
+.index--container {
+    margin: 1rem;
+}
+
+h1 {
+    border-bottom: 2px solid;
+    padding: 2rem;
+}
